@@ -46,45 +46,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*reset css       358 100 75            0 85 50     */
 
-.main-container {
+
+
+
+
+body {
+    background-color: rgb(29, 29, 29);    
+}
+
+
+.logo-header  {
+    height: 155px;
+    width: 240px;
+    background-color:blue ;
+}
+
+
+.main-container   {
+    color: rgb(196, 105, 105);
+}
+
+
+.header   {
+
+    background-color: white;
     width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.top {
-    width: 80%;
     height: 155px;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 
-.logo {
-    background-color: blueviolet;
+.header1    {
+
+    background-color: rgb(52, 255, 1);
+    width: 100%;
+    height:77.5px;
+    max-width: 100%;
+    display: inline-flex;
 }
 
-.zaps {
-    height: 155px;
-    background-color: brown;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+/*218, 58, 90*/
+
+#sitelogo   {
+    max-width:  100%;
+    width: 200px;
+    height: calc(   var(56px)  -  var(0.5rem)  * 2);
+    object-fit: contain;
+    vertical-align: middle;
+    outline: 0;
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.sociale {
-    background-color: yellow;
-    height: calc(155px / 2);
+.header1 img {
+    max-width: 100%;
+    width: 30px;
+    
+   
 }
 
-.linki {
-    background-color: azure;
-    height: calc(155px / 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
