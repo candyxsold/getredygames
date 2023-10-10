@@ -69,7 +69,7 @@ table {
 }
 
 .zaps {
-    height: 155px;
+    height: 100%;
     background-color: brown;
     display: flex;
     flex-direction: column;
@@ -79,6 +79,7 @@ table {
 .sociale {
     background-color: yellow;
     height: calc(155px / 2);
+
 }
 
 .linki {
